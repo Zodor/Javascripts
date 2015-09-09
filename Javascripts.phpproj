@@ -18,4 +18,30 @@
   <ItemGroup>
     <Compile Include="index.php" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\" />
+    <Folder Include=".vs\config\" />
+    <Folder Include=".vs\Javascripts\" />
+    <Folder Include=".vs\Javascripts\v14\" />
+    <Folder Include="Namespace\" />
+    <Folder Include="Namespace\css\" />
+    <Folder Include="Namespace\css\images\" />
+    <Folder Include="Namespace\css\pages\" />
+    <Folder Include="Namespace\images\" />
+    <Folder Include="Namespace\js\" />
+    <Folder Include="Namespace\js\pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".vs\config\applicationhost.config" />
+    <Content Include="Namespace\css\pages\home.css" />
+    <Content Include="Namespace\css\styles.css" />
+    <Content Include="Namespace\js\data.js" />
+    <Content Include="Namespace\js\localization.js" />
+    <Content Include="Namespace\js\locations.js" />
+    <Content Include="Namespace\js\main.js" />
+    <Content Include="Namespace\js\pages\startpage.js" />
+    <Content Include="Namespace\js\_namespace.js" />
+  </ItemGroup>
 </Project>
